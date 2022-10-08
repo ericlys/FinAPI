@@ -50,8 +50,6 @@ describe("Authenticate user", () => {
       password: user.password
     });
 
-    console.log(response)
-
     expect(response).toHaveProperty("token");
   });
 
